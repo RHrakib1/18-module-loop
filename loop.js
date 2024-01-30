@@ -1,6 +1,11 @@
-const frutis=["orange", "watermillon", "banana", "tetul", "borai"];
-console.log(frutis);
-
-for(const eting of frutis){
-    console.log(eting);
+// loop er bebohar
+const numbers = [100, 200, 300, 400, 500, 600, 700];
+for(const num of numbers){
+    console.log(num);
+    console.log("i am rakib");
 }
+
+
+
+
+
