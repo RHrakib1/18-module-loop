@@ -6,6 +6,13 @@ for(const num of numbers){
 }
 
 
+let player =[55, 99, 10, 50, 40];
+console.log(player);
+for(const paly of player){
+    console.log(paly);
+}
+
+
 
 
 
