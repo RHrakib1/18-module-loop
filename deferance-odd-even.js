@@ -29,10 +29,31 @@ for (let i = 10; i <= 50; i++) {
 
 
 // vinno niyome even number bar korar niyom
-console. log("example onno niyome even bar korar niyom");
+console.log("example onno niyome even bar korar niyom");
 for (i = 20; i <= 30; i++) {
-    if (i % 2 !== 1){
+    if (i % 2 !== 1) {
         console.log(i);
     }
+}
 
+
+
+console.log("example 5 diye vag kora jai amn number")
+// 1-30 pojonot number k 5 dara vag krle vagfol 0 hbe amn koyekti number bar kora
+for (i = 1; i <= 30; i++) {
+    if (i % 5 == 0) {
+        console.log(i);
+    }
+}
+
+
+
+
+
+console.log("example 5 or 3 diye vag kora jai amn number")
+// 1-30 pojonot number k 5 dara vag krle vagfol 0 hbe amn koyekti number bar kora
+for (i = 1; i <= 30; i++) {
+    if (i % 5 == 0 || i % 3 == 0) {
+        console.log(i);
+    }
 }

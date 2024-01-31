@@ -20,6 +20,11 @@ if (love < 10) {
 console.log("torabbi rahman");
 
 
+for(i=0; i<5; i++){
+    console.log("rakib");
+}
+
+
 
 
 
