@@ -14,7 +14,7 @@ console.log("example 2 start");
 let even = 2;
 while (even <= 30) {
     console.log(even);
-    if (even % 2 == 0){
+    if (even % 2 == 0) {
         console.log("even number of:", even);
     }
     even++;
@@ -24,8 +24,27 @@ while (even <= 30) {
 console.log("example task");
 
 
-let number=1;
-while(number<=60){
+let number = 1;
+while (number <= 60) {
     console.log("programming hero", number);
     number++;
+}
+
+console.log("example for task odd number")
+let number1 = 61;
+while (number1 <= 100) {
+    console.log(number1);
+    number1 = number1 + 2;
+}
+
+
+console.log("example for even number")
+let number2 = 78;
+while (number2<=100) {
+    if(number2 % 2 == 0){
+        console.log(number2);
+    }
+    number2++;
+    
+
 }
