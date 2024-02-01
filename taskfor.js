@@ -38,3 +38,10 @@ for (i = 51; i <= 85; i++) {
 console.log(sum1);
 
 
+
+console.log("revers");
+// 21-15
+for(i1=21; i1>=15; i1--){
+    console.log(i1);
+}
+
