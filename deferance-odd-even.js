@@ -57,3 +57,29 @@ for (i = 1; i <= 30; i++) {
         console.log(i);
     }
 }
+
+
+
+
+// sudhu 3 and 5 die jai amn number
+console.log("examle divaided");
+for (i = 1; i <= 50; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log(i);
+    }
+}
+
+
+
+
+
+// 1-20 number 3 diya vag gele se gular sum ber kora
+console.log("example*******______");
+let sum=0;
+for (i = 1; i <= 20; i++) {
+    if (i % 3 === 0){
+        console.log(i);
+        sum=sum+i;
+    }
+}
+console.log("the sum of numbers :", sum);
