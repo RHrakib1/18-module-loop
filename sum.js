@@ -12,13 +12,13 @@ while (num <= 20) {
 
 // gun/miltication
 console.log("gun kora");
-let i=2;
+let j=1;
 let sum1=1;
-while(i<=5){
-    sum=sum*i;
-    i++;
+while(j<=5){
+    sum1=sum1*j;
+    j++;
 }
-console.log(sum);
+console.log(sum1);
 
 
 
