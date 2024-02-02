@@ -9,6 +9,19 @@ while (num <= 20) {
 
 
 
+
+// gun/miltication
+console.log("gun kora");
+let i=2;
+let sum1=1;
+while(i<=5){
+    sum=sum*i;
+    i++;
+}
+console.log(sum);
+
+
+
 // example even
 console.log("example 2 start");
 let even = 2;
@@ -48,3 +61,5 @@ while (number2<=100) {
     
 
 }
+
+
